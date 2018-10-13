@@ -1,11 +1,11 @@
 
 ##Service Start Sequence
 1. docker-compose up
-3. sh ./start-location-simulator.sh
-4. sh ./start-location-distribution.sh
-5. sh ./start-location-updater.sh
-6. sh ./start-running-location-service.sh
-7. go to running location service folder and run sh ./upload-running.sh
+2. sh ./start-eruka.sh
+3. sh ./start-hystrix.sh
+4. sh ./start-location-simulator.sh
+5. sh ./start-location-distribution.sh
+6. sh ./start-location-updater.sh
 
 ##UI
 1. Open Simulator UI on http://localhost:9005
@@ -14,5 +14,3 @@
 
 ##Hystrix stream is open at
 http://localhost:9005/hystrix.stream
-
-https://github.com/FasterXML/jackson-databind/issues/1239
