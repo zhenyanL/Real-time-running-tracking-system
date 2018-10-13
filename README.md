@@ -1,7 +1,7 @@
 
 ##Service Start Sequence
 1. docker-compose up
-2. sh ./start-eruka.sh
+2. sh ./start-eureka.sh
 3. sh ./start-hystrix.sh
 4. sh ./start-location-simulator.sh
 5. sh ./start-location-distribution.sh
